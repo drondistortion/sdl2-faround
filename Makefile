@@ -9,7 +9,7 @@ LIB = -L/usr/lib
 
 LINKER_FLAGS = -lSDL2
 
-OUTPUT = sdl2_faraound
+OUTPUT = sdl2_faround
 
 all : $(INPUT)
 	$(CC) $(INPUT) $(INCLUDE) $(LIB) $(COMPILER_FLAGS) $(LINKER_FLAGS) -o $(OUTPUT)
